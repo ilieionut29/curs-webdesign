@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #12cbc4;
+  padding: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.info,
+.training,
+.skills,
+.software {
+  margin-left: 30px;
+}
+
+.info li,
+.training li,
+.skills li,
+.software li {
+  margin-bottom: 5px;
+}
+
+.training {
+  list-style: square;
+}
+
+.software {
+  list-style: upper-roman;
+}
+
+.back {
+  color: #070707;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 25px;
+  display: block;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 17px;
+  text-align: left;
+  color: #070707;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+
+.right-side.cv {
+  text-align: left;
+}
+
+.right-side.cv .info a, .right-side.cv .training a {
+  display: unset;
+  font-size: initial;
+}
